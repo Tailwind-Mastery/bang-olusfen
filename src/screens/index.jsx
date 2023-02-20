@@ -4,6 +4,7 @@ import Landing from "../components/home/Landing";
 import Categories from "../components/home/Categories";
 import Senses from "../components/home/Senses";
 import Sound from "../components/home/Sound";
+import Experience from "../components/home/Experience";
 
 export default function Home(){
     return (
@@ -14,6 +15,7 @@ export default function Home(){
                 <Categories />
                 <Senses />
                 <Sound />
+                <Experience />
             </div>
             <Footer />
         </div>
